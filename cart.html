@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu with Search Box | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cart.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    
+  <div class="wrapper">
+    <nav>     
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="logo"><a href="#"><img id="img-logo" src="img/logo.jpeg" alt="Your Logo" width="50px" ></a></div>
+      <div class="content">
+        
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="aboutus.html" class="desktop-link">About Us</a>
+            <input type="checkbox" id="show-zero">
+            <label for="show-zero">About us</label>
+            <ul>
+              <li><a href="ourcompany.html">Our Company</a></li>
+              <li><a href="ourteam.html">Our Team</a></li>
+              <li><a href="oursuccessstory.html">Our Success Story</a></li>
+              <li><a href="news.html">News</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="Product.html" class="desktop-link">Product</a>
+            <input type="checkbox" id="show-one">
+            <label for="show-one">Product</label>
+            <ul>
+              <li><a href="lift.html">Lift</a></li>
+              <li><a href="escalator.html">Escalator</a></li>
+              <li><a href="liftspareparts.html">Lift Spare Parts</a></li>
+              <li><a href="escalatorspareparts.html">Escalator Spare Parts</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="services.html" class="desktop-link">Services</a>
+            <input type="checkbox" id="show-two">
+            <label for="show-two">Services</label>
+            <ul>
+              <li><a href="newinstallationservices.html">New Installation Services</a></li>
+              <li><a href="annualmaintenanceservices.html">Annual Maintenance Services</a></li>
+              <li><a href="breakdownservices.html">Breakdown Services</a></li>
+            </ul>
+          </li>
+          <li><a href="shop.html">Shop</a></li>
+          <li>
+            <a href="#" class="desktop-link">Customer Services</a>
+            <input type="checkbox" id="show-three">
+            <label for="show-three">Customer Services</label>
+            <ul>
+              <li><a href="yourorders.html">Your Orders</a></li>
+              <li><a href="returnsandrefunds.html">Returns & Refunds</a></li>
+              <li><a href="manageaddresses.html">Manage Addresses</a></li>
+              <li><a href="paymentsettings.html">Payment Settings</a></li>
+              <li><a href="accountsettings.html">Account Setings</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="register.html" class="desktop-link">Register</a>
+            <input type="checkbox" id="show-four">
+            <label for="show-four">Register</label>
+            <ul>
+              <li><a href="consumerregistration.html">Consumer Registration</a></li>
+              <li><a href="engineerregistration.html">Engineer Registration</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="login.html" class="desktop-link">Login</a>
+            <input type="checkbox" id="show-five">
+            <label for="show-five">Login</label>
+            <ul>
+              <li><a href="consumerlogin.html">Consumer Login</a></li>
+              <li><a href="engineerlogin.html">Engineer Login</a></li>
+              <li><a href="adminlogin.html">Admin Login</a></li>
+            </ul>
+          </li>
+          <li><a href="contactus.html">Contact us</a></li>
+          <a href="cart.html"><a href="cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
+	     <img src="image/menu.png" class="menu-icon" onclick="menutoggle()">
+          
+        </ul>
+      </div>
+      
+    </nav>
+  </div>
+
